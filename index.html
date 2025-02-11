@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salesforce Login Page</title>
     <style>
-        body {
+       body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* מסיר גלילה ושוליים מיותרים */
+    overflow: hidden;
     width: 100vw;
     height: 100vh;
+    position: absolute; /* קובע שהגוף יתפוס את כל המסגרת */
+    top: 0;
+    left: 0;
 }
 
 img {
-    width: 100vw; /* ממלא את כל הרוחב */
-    height: 100vh; /* ממלא את כל הגובה */
-    object-fit: cover; /* מוודא שהתמונה מתפרסת נכון */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
     display: block;
+    position: absolute; /* מבטל כל שוליים אפשריים */
+    top: 0;
+    left: 0;
 }
+
 
     </style>
 </head>
