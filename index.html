@@ -6,17 +6,20 @@
     <title>Salesforce Login Page</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* מסיר גלילה ושוליים מיותרים */
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    width: 100vw; /* ממלא את כל הרוחב */
+    height: 100vh; /* ממלא את כל הגובה */
+    object-fit: cover; /* מוודא שהתמונה מתפרסת נכון */
+    display: block;
+}
+
     </style>
 </head>
 <body>
